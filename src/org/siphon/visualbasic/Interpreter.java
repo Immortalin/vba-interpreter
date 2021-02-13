@@ -74,7 +74,7 @@ import org.siphon.visualbasic.runtime.framework.vba.VBALibrary;
 import org.siphon.visualbasic.runtime.statements.NamedArgumentStatement;
 import org.siphon.visualbasic.runtime.statements.ShowFormStatement;
 
-import com.sun.corba.se.impl.naming.pcosnaming.NameServer;
+//import com.sun.corba.se.impl.naming.pcosnaming.NameServer;
 
 public class Interpreter {
 

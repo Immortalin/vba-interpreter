@@ -42,7 +42,7 @@ import org.siphon.visualbasic.VbTypeDecl;
 import org.siphon.visualbasic.compile.JavaClassModuleDecl;
 import org.stringtemplate.v4.compiler.STParser.singleElement_return;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Single;
+//import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Single;
 
 public class VbVarType {
 
@@ -476,7 +476,7 @@ public class VbVarType {
 		case VbVarType.vbDouble:
 			return double.class;
 		case VbVarType.vbSingle:
-			return Single.class;
+			return float.class;
 		case VbVarType.vbCurrency:
 			return double.class;
 		}

@@ -97,7 +97,7 @@ import org.siphon.visualbasic.runtime.statements.NamedArgumentStatement;
 import org.siphon.visualbasic.runtime.statements.NewStatement;
 import org.stringtemplate.v4.compiler.Bytecode.OperandType;
 
-import jdk.nashorn.internal.ir.BlockStatement;
+//import jdk.nashorn.internal.ir.BlockStatement;
 import sun.java2d.pipe.SpanShapeRenderer.Simple;
 import sun.util.locale.BaseLocale;
 import vba.VbaLexer;

@@ -82,7 +82,7 @@ import org.siphon.visualbasic.runtime.statements.VariableStatement;
 import org.siphon.visualbasic.runtime.statements.UndeterminedLabelGotoStatement;
 import org.siphon.visualbasic.runtime.statements.WithStatement;
 
-import jdk.nashorn.internal.ir.BlockStatement;
+//import jdk.nashorn.internal.ir.BlockStatement;
 import vba.VbaParser.AmbiguousIdentifierContext;
 import vba.VbaParser.ArgCallContext;
 import vba.VbaParser.ArgListContext;

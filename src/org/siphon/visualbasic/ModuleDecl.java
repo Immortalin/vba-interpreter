@@ -35,7 +35,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.siphon.visualbasic.compile.CompileException;
 import org.siphon.visualbasic.runtime.Statement;
 
-import com.sun.xml.internal.ws.config.metro.util.ParserUtil;
+//import com.sun.xml.internal.ws.config.metro.util.ParserUtil;
 
 import vba.VbaParser.AmbiguousIdentifierContext;
 

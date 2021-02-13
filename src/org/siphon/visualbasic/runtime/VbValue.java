@@ -54,7 +54,7 @@ import org.siphon.visualbasic.compile.ImpossibleException;
 import org.siphon.visualbasic.compile.JavaClassModuleDecl;
 import org.siphon.visualbasic.compile.JavaModuleDecl;
 
-import com.sun.glass.ui.Pixels.Format;
+//import com.sun.glass.ui.Pixels.Format;
 import com.sun.org.apache.bcel.internal.classfile.JavaClass;
 
 public class VbValue {

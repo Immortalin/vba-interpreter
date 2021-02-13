@@ -38,7 +38,7 @@ import org.siphon.visualbasic.runtime.VbVarType;
 import org.siphon.visualbasic.runtime.framework.VbMethod;
 import org.siphon.visualbasic.runtime.framework.VbParam;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+//import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class JavaMethod extends MethodDecl {
 
