@@ -26,7 +26,7 @@ import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import vba.VbaLexer;
 import vba.VbaParser;
-import org.jetbrains.projector.server.ProjectorServer;
+//import org.jetbrains.projector.server.ProjectorServer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,16 +38,16 @@ import java.util.Arrays;
 public class ShowTree {
     public static void main(String[] args) throws FileNotFoundException, IOException {
 //		if (ProjectorServer.isEnabled()){
-        System.out.println("Running Projector Server...");
-        var server = ProjectorServer.startServer(false, new Runnable() {
-            @Override
-            public void run() {
-                System.setProperty("org.jetbrains.projector.server.enable", "true");
-            }
-        });
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            server.stop();
-        }));
+//        System.out.println("Running Projector Server...");
+//        var server = ProjectorServer.startServer(false, new Runnable() {
+//            @Override
+//            public void run() {
+//                System.setProperty("org.jetbrains.projector.server.enable", "true");
+//            }
+//        });
+//        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+//            server.stop();
+//        }));
 //		}
         System.out.println("Starting Visual Basic...");
         main1(args);

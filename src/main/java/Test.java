@@ -30,7 +30,7 @@ import org.siphon.visualbasic.runtime.VbRuntimeException;
 
 import java.io.IOException;
 import java.text.ParseException;
-import org.jetbrains.projector.server.ProjectorServer;
+//import org.jetbrains.projector.server.ProjectorServer;
 
 public class Test {
 	public static void main(String[] args) throws IOException, UnspportedActiveXReferenceException, VbErrorsException,
