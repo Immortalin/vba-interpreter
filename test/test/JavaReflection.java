@@ -1,15 +1,11 @@
 package test;
 
+import org.apache.commons.lang3.reflect.TypeUtils;
+
 import java.lang.reflect.Array;
-import java.lang.reflect.Parameter;
 import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
-import java.lang.reflect.TypeVariable;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.lang3.reflect.TypeUtils;
 
 public class JavaReflection {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {

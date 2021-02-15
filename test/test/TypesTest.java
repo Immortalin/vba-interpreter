@@ -1,10 +1,10 @@
 package test;
 
-import java.util.Date;
-import java.util.List;
-
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
+
+import java.util.Date;
+import java.util.List;
 
 public class TypesTest {
 
